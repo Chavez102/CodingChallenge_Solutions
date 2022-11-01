@@ -13,7 +13,7 @@ public class StringsInBetwen {
 
 	}
 
-	private static int count_words_between(String firstWord, String secondWord, String list_of_words) {
+	public static int count_words_between(String firstWord, String secondWord, String list_of_words) {
 		// TODO Auto-generated method stub
 		char charFirstWord= firstWord.charAt(0);
 		char charSecondWord= secondWord.charAt(0);
